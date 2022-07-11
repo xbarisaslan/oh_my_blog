@@ -1,7 +1,6 @@
 <template>
-  <div class="post-card">
-    <h1>This is a post card </h1>
-    <p> This is a post card  This is a post card. This is a post cardThis is a post cardThis is a post card</p>
+  <div class="post-card" v-for="post in posts">
+    
   </div>
 </template>
 
