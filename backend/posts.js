@@ -6,6 +6,7 @@ const postsSchema = new mongoose.Schema({
     image:String,
     created: {
         type:Date,
+        default: Date.now,
     },
 })
 
