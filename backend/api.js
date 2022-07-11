@@ -22,7 +22,7 @@ module.exports = class API {
         post.image = image
         try {
             await Posts.create(post);
-            res.status(201);
+            res.status(201).json({message:'Post created!'});
         } catch (err) {
             res.status(404).json({message:err.message});
         }
