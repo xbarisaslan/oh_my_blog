@@ -1,30 +1,17 @@
 <template>
 <Header />
-  <div class="posts">
-  <div class="blog-post" v-for="post in posts" :key="post._id" >
-    <h3>{{post.title}}</h3>
-    <p>{{post.content}}</p>
-    <p>{{post.author}}</p>
-  </div>
-  </div>
+<Posts />
 </template>
 
 <script>
-import API from '../api'
 import Header from '../components/Header.vue'
+import Posts from '../components/Posts.vue'
 
 export default {
   name: 'Home',
   components: {
     Header,
-  },
-  data() {
-    return {
-      posts: []
-    }
-  },
-   async created() {
-    this.posts = await API.getAllPosts()
+    Posts,
   }
 }
 </script>
