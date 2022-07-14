@@ -18,18 +18,17 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
 .header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   position: relative;
-  background-image: url(../assets/photo-1499750310107-5fef28a66643.avif);
-  background-size: 100% 100%;
+  background-image: url(../assets/photo-1522199755839-a2bacb67c546.avif);
+  background-size: 100%;
   background-repeat: no-repeat;
-  height:45rem;
+  height:48rem;
   margin-bottom: 8rem;
-  opacity: .8;
 }
 
 .top-right{
@@ -38,9 +37,9 @@ export default {
   
 }
 .header-btn {
-  color:rgba(255, 177, 0, .9);
-  padding: 0 1rem;
-  font-size:1.4rem;
+  padding: 0 1.5rem;
+  font-size:1.6rem;
+  color:rgba(241, 203, 71, 0.8);
 }
 
 .logo {
@@ -51,14 +50,14 @@ export default {
 .welcome {
   color:rgba(255, 177, 0, .9);
   position:absolute;
-  top:27rem;
-  left:2.5rem;
+  top:20rem;
+  left:2rem;
   font-size:4rem;
 }
 
 .create {
   position:absolute;
-  top:32rem;
+  top:26rem;
   left:3rem;
   border:none;
   border-radius: 100px;
