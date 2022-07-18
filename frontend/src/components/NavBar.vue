@@ -25,12 +25,12 @@ export default {
 .header-btn {
     padding: .35rem 1.5rem 0 1.5rem;
     font-size:1.6rem;
-    color:rgba(248,248,248,.9);
+    color:rgba(255, 177, 0, .9);
     transition: color 100ms;
 }
 
 .header-btn:hover {
-    color:rgba(255,255,255,1)
+    color:rgba(255, 195, 0, 1);
 }
 
 .logo {
