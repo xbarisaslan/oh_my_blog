@@ -1,7 +1,6 @@
 <template>
     <NavBar />
 <div class="create">
-   
 <form action="/submit" method="POST">
     <label for="Title"></label> <input type="text" name="title" placeholder="Title" required> 
     <label for="Content"></label> <textarea placeholder="Content" required></textarea>
@@ -23,7 +22,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 input {
     display: flex;
     justify-content: center;
@@ -49,11 +48,18 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:8rem;
+    padding:2rem 1rem 2rem 1rem;
+    border:1px solid rgba(128,128,128,.5);
+    width:40rem;
+    margin: 5rem 25rem;
 }
 
 .submit {
-    
+    border:none;
+    border-radius: 10rem;
+    background-color: rgba(255, 177, 0, .9);
+    padding:.8rem;
+    margin-top:3rem;
 }
 
 </style>
