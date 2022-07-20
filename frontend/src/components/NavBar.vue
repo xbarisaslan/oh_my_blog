@@ -1,6 +1,6 @@
 <template>
 <div class="navbar">
-    <img class="logo" src="../assets/ohMyBlog-logos_white.png"/>
+    <router-link to="/"><img class="logo" src="../assets/ohMyBlog-logos_white.png"/></router-link>
     <div class="top-right">
     <router-link style="text-decoration: none" to="/"><div class="header-btn">Home</div></router-link>
     <router-link style="text-decoration: none" to="/about"><div class="header-btn">About</div></router-link>
