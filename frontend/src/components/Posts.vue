@@ -3,7 +3,7 @@
   <div class="blog-post" v-for="post in posts" :key="post._id" >
     <h3>{{post.title}}</h3>
     <p>{{post.content}}</p>
-    <p>{{post.author}}</p>
+    <p style="font-weight:bold;">Author: {{post.author}}</p>
   </div>
 </div>
 
@@ -12,8 +12,8 @@
 <script>
 import API from '../api'
 export default {
-    name: 'Posts',
-    data() {
+  name: 'Posts',
+  data() {
     return {
       posts: []
     }
@@ -30,11 +30,13 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fill , minmax(500px,1fr));
   gap:4rem 2rem;
-  padding:3rem;
+  padding: 2rem;
 }
 
 .blog-post {
-  border: 2px solid red;
-  background-color: rgba(245, 245, 245, 1);
+  background-color: rgba(248, 248, 248, .75);
+  border: 1px solid rgba(248, 248, 248, 1);
+  border-radius: 10px;
+  padding-left: .5rem;
 }
 </style>
