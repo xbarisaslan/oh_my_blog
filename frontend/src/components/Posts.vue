@@ -25,7 +25,10 @@ export default {
 </script>
 
 <style scoped>
-
+h3,p {
+  padding:1rem;
+  line-height: .5rem;
+}
 .posts{
   display: grid;
   grid-template-columns: repeat(auto-fill , minmax(500px,1fr));
@@ -37,6 +40,6 @@ export default {
   background-color: rgba(248, 248, 248, .75);
   border: 1px solid rgba(248, 248, 248, 1);
   border-radius: 10px;
-  padding-left: .5rem;
+  padding-left: 1rem;
 }
 </style>
