@@ -1,11 +1,11 @@
 <template>
     <NavBar />
 <div class="create">
-<form action="/submit" method="POST">
-    <label for="Title"></label> <input type="text" name="title" placeholder="Title" required> 
-    <label for="Content"></label> <textarea placeholder="Content" required></textarea>
-    <label for="Author"></label> <input type=text name="author" placeholder="Author">
-    <button class=submit type="submit">Create Post</button> 
+<form @submit.prevent="submitPost" method="POST">
+    <input v-model="posts.title" placeholder="Title" required> 
+    <textarea v-model="posts.content" placeholder="Content" required></textarea>
+    <input v-model="posts.author" placeholder="Author">
+    <button type="submit" class="submit">Create Post </button> 
 </form>
 </div>
 </template>
@@ -18,8 +18,24 @@ export default {
     name: 'Create',
     components: {
         NavBar,
+    },
+    data() {
+        return {
+            posts: {
+                title: '',
+                content: '',
+                author: '',
+            }
+        }
+    },
+    methods: {
+        async submitPost() {
+        let postData = {title:this.posts.title , content:this.posts.content , author:this.posts.author}
+        this.posts = await API.addPost(postData);
+        this.$router.push('/')
+    },
     }
-}
+    }
 </script>
 
 <style>
@@ -60,6 +76,7 @@ textarea {
     background-color: rgba(255, 177, 0, .9);
     padding:.8rem;
     margin-top:3rem;
+    cursor:pointer;
 }
 
 </style>
