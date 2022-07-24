@@ -1,12 +1,12 @@
 <template>
     <NavBar />
 <div class="create">
-<form @submit.prevent="submitPost" method="POST">
+  <form @submit.prevent="submitPost" method="POST">
     <input v-model="posts.title" placeholder="Title" required> 
-    <textarea v-model="posts.content" placeholder="Content" required></textarea>
+    <textarea v-model="posts.content" placeholder="Content" minlength="100" required></textarea>
     <input v-model="posts.author" placeholder="Author">
     <button type="submit" class="submit">Create Post </button> 
-</form>
+  </form>
 </div>
 </template>
 
@@ -51,10 +51,10 @@ input {
 }
 
 textarea {
-    text-align: start;
-    padding:1rem 0 5rem 0;
+    padding:1rem 0 6rem 0;
     outline: none;
     width:40rem;
+    height: 5rem;
     border:none;
     resize:none;
     border-bottom: 1px solid rgba(128,128,128,.3);
@@ -74,9 +74,10 @@ textarea {
     border:none;
     border-radius: 10rem;
     background-color: rgba(255, 177, 0, .9);
-    padding:.8rem;
-    margin-top:3rem;
+    padding:.7rem;
+    margin-top:2rem;
     cursor:pointer;
+    width: 100%;
 }
 
 </style>
