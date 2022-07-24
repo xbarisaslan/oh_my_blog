@@ -1,8 +1,8 @@
-## Table of contents
+# Table of contents
 * [Introduction](#introduction)
 * [Technologies](#technologies)
 
-# Introduction
+## Introduction
 This is a graduation project made for Coyotiv School of Software Engineering.
 
 ## Technologies
