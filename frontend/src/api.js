@@ -1,5 +1,5 @@
 import axios from 'axios'
-const url = "/api/post"
+const url = 'http://localhost:5000/api/post'
 
 export default class API {
     static async getAllPosts() {
@@ -8,12 +8,12 @@ export default class API {
     }
 
     static async getPostById(id) {
-        const res = await axios.get(`#{url}/${id}`);
+        const res = await axios.get(`${url}/${id}`);
         return res.data;
     }
 
-    static async createPost(post) {
-        const res = await axios.get(url , post);
-        return res.data
-}
+    static async addPost(post) {
+        const res = await axios.post(url , post);
+        return res.data;
+    }
 }
