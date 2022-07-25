@@ -2,7 +2,7 @@
 * [Introduction](#introduction)
 * [Technologies](#technologies)
 
-## Introduction
+## ohMyBlog
 This is a graduation project made for Coyotiv School of Software Engineering.
 
 ## Technologies
