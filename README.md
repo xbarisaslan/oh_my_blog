@@ -1,5 +1,5 @@
 # Table of contents
-* [ohMyBlog](#ohmyblog)
+* [Introduction](#introduction)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [License](#license)
