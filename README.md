@@ -14,6 +14,8 @@ Technologies used in the project:
 * Node.js version: 16.13.1
 * Postman
 
+## Setup
+
 ## License
 MIT License
 
