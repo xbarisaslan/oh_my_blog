@@ -2,6 +2,7 @@
 * [ohMyBlog](#ohmyblog)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [License](#license)
 
 ## ohMyBlog
 This is a graduation project made for Coyotiv School of Software Engineering.
