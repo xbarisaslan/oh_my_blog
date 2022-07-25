@@ -1,6 +1,7 @@
 # Table of contents
 * [Introduction](#introduction)
 * [Technologies](#technologies)
+* [Setup](#setup)
 
 ## ohMyBlog
 This is a graduation project made for Coyotiv School of Software Engineering.
