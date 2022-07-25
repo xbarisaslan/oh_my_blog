@@ -4,7 +4,7 @@
 * [Setup](#setup)
 * [License](#license)
 
-## ohMyBlog
+## Introduction
 This is a graduation project made for Coyotiv School of Software Engineering.
 
 ## Technologies
