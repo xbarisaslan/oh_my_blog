@@ -20,6 +20,10 @@ Clone this project to your local machine:
 ```
 $ git clone git@github.com:xbarisaslan/oh-my-blog.git
 ```
+Install the dependencies:
+```
+npm install
+```
 
 ## License
 MIT License
