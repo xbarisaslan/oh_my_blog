@@ -16,6 +16,11 @@ Technologies used in the project:
 * Postman
 
 ## Setup
+```
+$ git clone git@github.com:xbarisaslan/oh-my-blog.git
+
+
+```
 
 ## License
 MIT License
