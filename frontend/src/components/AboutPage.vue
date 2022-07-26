@@ -1,7 +1,7 @@
 <template>
  <div class="about">
     <div class="text">
-    <h1>About ohMyBlog</h1>
+    <h2>About ohMyBlog</h2>
     <p> This is a graduation project I made for <a href="https://www.coyotiv.com/school-of-software-engineering/">Coyotiv School of Software Engineering.</a></p>
     <p> At first,the project's motive was to write blog posts of my own about music theory, the books I read,series/movies I've watched etc.
         Then I decided to make it so that anyone who uses the website can write and publish their own posts about any topic.
@@ -21,11 +21,11 @@ export default {
 
 <style scoped>
 .about {
-  display: flex;
-  padding-left: 1.5rem;
+    display: flex;
+    padding-left: 1.5rem;
 }
 
-h1 {
+h2 {
     padding-top: 1.2rem;
 }
 
@@ -33,7 +33,7 @@ p {
     padding-top: .5rem;
     padding-right: 1.5rem;
     line-height: 2.5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align:justify;
 }
 
