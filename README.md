@@ -26,6 +26,10 @@ Install the dependencies:
 ```
 npm install
 ```
+To run the project:
+```
+npm run dev
+```
 
 ## License
 MIT License
