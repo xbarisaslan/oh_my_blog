@@ -24,11 +24,11 @@ $ git clone git@github.com:xbarisaslan/oh-my-blog.git
 ```
 Install the dependencies:
 ```
-npm install
+$ npm install
 ```
 To run the project:
 ```
-npm run dev
+$ npm run dev
 ```
 
 ## License
