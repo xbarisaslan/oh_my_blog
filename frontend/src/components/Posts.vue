@@ -40,7 +40,7 @@ h3,p {
   grid-template-columns: repeat(auto-fill , minmax(500px,1fr));
   gap:4rem 2rem;
   padding: 2rem;
-  background-color: rgba(205, 208, 202, .65)
+  background-color: rgba(215, 215, 210, .7)
 }
 
 .blog-post {
