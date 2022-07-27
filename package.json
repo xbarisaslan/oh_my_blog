@@ -18,7 +18,7 @@
     "nodemon": "^2.0.19"
   },
   "scripts": {
-    "start": "concurrently \"cd backend && nodemon app.js\" \"cd frontend && npm run serve\""
+    "start": "\"cd backend && node app.js\""
   },
   "repository": {
     "type": "git",
