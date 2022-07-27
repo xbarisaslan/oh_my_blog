@@ -20,7 +20,11 @@ export default {
     return {
       post: {}
     }
-    }
+  },
+    async created() {
+    let postId = await API.getPostById(this.$route.params.id);
+    this.post = postId;
+  }
 }
 
 </script>
