@@ -1,10 +1,12 @@
 <template>
 <div class="header">
   <img class="logo" src="../assets/ohMyBlog-logos_white.png"/>
+
   <div class="top-right">
     <router-link style="text-decoration: none" to="/"><div class="header-btn">Home</div></router-link>
     <router-link style="text-decoration: none" to="/about"><div class="header-btn">About</div></router-link>
   </div>    
+
     <h1 class="welcome">Welcome to ohMyBlog!</h1>
     <router-link style="text-decoration: none" to="/create"><button class="create">Create Post</button></router-link>
   </div>
@@ -14,7 +16,6 @@
 export default {
     name:'Header',
 }
-
 </script>
 
 <style scoped>

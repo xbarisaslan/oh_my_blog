@@ -40,7 +40,7 @@ export default {
 }
 
 .top-right{
-  display: flex;
-  padding: 2rem 3rem;
+    display: flex;
+    padding: 2rem 3rem;
 }
 </style>
