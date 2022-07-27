@@ -30,5 +30,16 @@ export default {
 </script>
 
 <style scoped>
-
+p {
+    padding-top:1rem;
+    line-height:1.7rem
+}
+.blog-post {
+    padding:1rem 1rem .5rem 1rem;
+    border:1px solid rgba(128,128,128,.3);
+    width:40rem;
+    margin: 5rem 25rem;
+    word-wrap: break-word;
+    text-align: justify;
+}
 </style>
