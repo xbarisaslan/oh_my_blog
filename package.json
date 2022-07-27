@@ -18,7 +18,8 @@
     "nodemon": "^2.0.19"
   },
   "scripts": {
-    "start": "\"cd backend && node app.js\""
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
