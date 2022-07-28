@@ -16,6 +16,7 @@ Technologies used in the project:
 * Vue.js version: 3.2.13
 * Node.js version: 16.13.1
 * Postman
+* Heroku
 
 ## Setup
 Clone this project to your local machine:
