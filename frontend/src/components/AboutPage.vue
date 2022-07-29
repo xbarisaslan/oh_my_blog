@@ -6,7 +6,7 @@
     <p> At first,the project's motive was to write blog posts of my own about music theory, the books I read,series/movies I've watched etc.
         Then I decided to make it so that anyone who uses the website can write and publish their own posts about any topic.
         There is no login/registration system but there is an author input in which the author can enter their nicknames.
-        I used MongoDB,Express.js,Vue.js and Node.js. I also used Postman to test the REST APIs. </p>
+        I used MongoDB,Express.js,Vue.js and Node.js. I also used Postman to test the APIs. </p>
     <p> You can view the source code from here: <a href="https://github.com/xbarisaslan/oh-my-blog">https://github.com/xbarisaslan/oh-my-blog</a></p>
    
     </div>
