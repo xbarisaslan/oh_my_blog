@@ -2,7 +2,7 @@
   "name": "oh-my-blog",
   "version": "1.0.0",
   "description": "* [ohMyBlog](#ohmyblog)\r * [Technologies](#technologies)\r * [Setup](#setup)",
-  "main": "main.js",
+  "main": "app.js",
   "dependencies": {
     "asynckit": "^0.4.0",
     "axios": "^0.27.2",
@@ -24,7 +24,7 @@
     "nodemon": "^2.0.19"
   },
   "scripts": {
-    "start": "node backend/app.js",
+    "start": "node backend/src/app.js",
     "dev": "nodemon backend/app.js"
   },
   "repository": {
