@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "node backend/src/app.js",
-    "dev": "nodemon backend/app.js"
+    "dev": "nodemon backend/src/app.js"
   },
   "repository": {
     "type": "git",
