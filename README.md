@@ -17,6 +17,8 @@ Technologies used in the project:
 * Node.js version: 16.13.1
 * Postman
 * Heroku
+* Docker
+* Google Cloud Run
 
 ## Setup
 Clone this project to your local machine:
