@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:16-alpine3.11 AS BUILDER
 
 WORKDIR /app
 
@@ -6,7 +6,19 @@ COPY package.json package-lock.json ./
 
 RUN npm install
 
-COPY public ./public
-COPY .browserslistrc vue.config.js babel.config.js ./ 
+COPY .browserslistrc babel.config.js vue.config.js .env.production ./
 
-CMD [ "npm","run","serve" ]
+COPY src ./src
+COPY public ./public
+
+RUN npm run build
+
+FROM node:16-alpine3.11 
+
+WORKDIR /app
+
+RUN npm i -g serve
+
+COPY --from=BUILDER /app/dist ./
+
+CMD serve -s -l $PORT
