@@ -1,6 +1,8 @@
 import axios from 'axios'
 const url = '/api/post'
 
+axios.defaults.baseURL = process.env.VUE_APP_BASE_URL
+
 export default class API {
     static async getAllPosts() {
         const res = await axios.get(url);
